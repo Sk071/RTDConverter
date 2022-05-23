@@ -1,4 +1,4 @@
-package com.sk.rtdconverter;
+package com.sk.dtrconverter;
 
 import org.junit.Test;
 

@@ -1,13 +1,15 @@
-package com.sk.rtdconverter;
+package com.sk.dtrconverter;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.text.InputType;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         Button b = (Button) findViewById(R.id.btn) ;
         TextView t = (TextView)findViewById(R.id.txtResult);
 
+        e.setInputType(InputType.TYPE_CLASS_NUMBER);
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
